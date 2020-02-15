@@ -56,7 +56,7 @@ media.aac_51_output_enabled=true
 mm.enable.smoothstreaming=true
 #media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 #codecs:(PARSER_)AAC AC3 AMR_NB AMR_WB ASF AVI DTS FLV 3GP 3G2 MKV MP2PS MP2TS MP3 OGG QCP WAV FLAC AIFF APE DSD
-vendor.mm.enable.qcom_parser=13631487
+vendor.mm.enable.qcom_parser=13631471
 persist.mm.enable.prefetch=true
 
 #prefer HW codec over SW for thumbnail
@@ -173,7 +173,6 @@ persist.dirac.acs.ignore_error=1
 vendor.bluetooth.soc=cherokee
 persist.vendor.btstack.enable.splita2dp=true
 persist.vendor.btstack.a2dp_offload_cap=sbc-aptx-aptxhd-aac
-persist.vendor.btstack.avrcp-playstatus.blacklist=true
 
 # Property for backup NTP Server
 persist.backup.ntpServer="0.pool.ntp.org"
@@ -186,18 +185,6 @@ persist.sys.camera.camera2=true
 #lct.ydt 20180911 add for voWIFI
 #iwaln vowifi corresponding
 persist.vendor.data.iwlan.enable=true
-
-#add for color invert
-ro.vendor.df.effect.conflict=1
-persist.sys.df.extcolor.proc=0
-#paper mode
-sys.paper_mode_max_level=255
-sys.tianma_nt36672a_offset=6
-sys.tianma_nt36672a_length=42
-sys.boe_td4320_offset=-9
-sys.boe_td4320_length=42
-sys.shenchao_nt36672a_offset=-10
-sys.shenchao_nt36672a_length=38
 
 #thermal configs path
 sys.thermal.data.path=/data/thermal/
